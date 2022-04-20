@@ -1,0 +1,1695 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HackerRocks</title>
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/Dstyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="https://static-fastly.hackerearth.com/static/google-code-prettify/prettify.css?v=0.3">
+</head>
+<body class="fixed-nav-page">
+    <div class="main-nav">
+        <nav class="navbar navbar-default d-navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="HackerRocks" title="HackerRocks" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <form class="navbar-form navbar-left nav-search-from">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="What would you like to learn today?" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fas fa-search"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav">
+                        <li><a href="courses_v2.html">Courses</a></li>
+                        <li class="active"><a href="practice-tests.html">Practice Tests</a></li>
+                        <li><a href="challenges.html">Challenges</a></li>
+                        <li><a href="interview-preparation.html">Interview Preparation</a></li>
+                        <li><a href="bussiness/index.html" class="orange-btn">For Business</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="register.html"><i class="far fa-user mr-5"></i>Register</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div class="interview-detail-land">
+        <div class="container">
+            <div class="col-sm-12 m-pad-0">
+                <div class="col-sm-12 idl-top-bar">
+                    <div class="col-sm-7">
+                        <h3>Arrays - Data Structure</h3>
+                    </div>
+                    <div class="col-sm-5 text-right no-left-pad-res no-right-pad-res">
+                        <ol class="breadcrumb breadcrumb-d-dark text-center-res">
+                            <li><a href="#">Practice Tests</a></li>
+                            <li><a href="#">Algorithms</a></li>
+                            <li><a href="#">Data Structure</a></li>
+                            <li class="active">Arrays</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-sm-12 idl-main-area">
+                    <div class="col-sm-12 col-lg-9 col-md-8 idl-main-nav">
+                        <div>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#Problem" aria-controls="Problem" role="tab" data-toggle="tab">Problem</a></li>
+                                <li role="presentation"><a href="#Submission" aria-controls="Submission" role="tab" data-toggle="tab">My Submission</a></li>
+                                <li role="presentation"><a href="#Editorial" aria-controls="Editorial" role="tab" data-toggle="tab">Editorial</a></li>
+                                <li role="presentation"><a href="#Analytics" aria-controls="Analytics" role="tab" data-toggle="tab">Analytics</a></li>
+                                <li role="presentation"><a href="#Leaderboard" aria-controls="Leaderboard" role="tab" data-toggle="tab">Leader Board</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="Problem">
+                                    <div class="col-sm-12 idl-tab-area">
+                                        <div class="col-sm-12 idl-problem nopadding">
+                                            <p>You are given an integer N. You need to print the series of all prime numbers till N.</p>
+                                            <p><b>Input Format</b></p>
+                                            <p>The first and only line of the input contains a single integer N denoting the number till where you need to find the series of prime number.</p>
+                                            <p><b>Output Format</b></p>
+                                            <p>Print the desired output in single line separated by spaces.</p>
+                                            <p>Constraints</p>
+                                            <p>1<=N<=1000</p>
+                                            <table class="table table-bordered">
+                                                <tr>
+                                                    <th>SAMPLE INPUT</th>
+                                                    <th>SAMPLE OUTPUT</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>2 3 5 7</td>
+                                                </tr>
+                                            </table>
+                                            <br>
+                                            <table class="table idm-small-tble">
+                                                <tr>
+                                                    <td><b>Time Limit:</b></td>
+                                                    <td>5.0 sec(s) for each input file.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Memory Limit:</b></td>
+                                                    <td>256 MB</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Source Limit:</b></td>
+                                                    <td>1024 KB</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Marking Scheme:</b></td>
+                                                    <td>Marks are awarded when all the testcases pass.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Allowed Languages:</b></td>
+                                                    <td>Bash, C, C++, C++14, Clojure, C#, D, Erlang, F#, Go, Groovy, Haskell, Java, Java 8, JavaScript(Rhino), JavaScript(Node.js), TypeScript, Julia, Kotlin, Lisp, Lisp (SBCL), Lua, Objective-C, OCaml, Octave, Pascal, Perl, PHP, Python, Python 3, R(RScript), Racket, Ruby, Rust, Scala, Swift, Swift-4.1, Visual Basic</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="col-sm-12 code-editor-idl mt-30">
+                                            <h3 class="cs-title"><i class="fas fa-code mr-5"></i>Code Editor</h3>
+
+                                            <div class="col-sm-12 c-editor">
+                                                <div class="col-sm-12 ce-top-bar">
+                                                    <select class="ce-language-dd">
+                                                        <option value="BASH">Bash (GNU bash, version 4.3.11)</option>
+                                                        <option value="C">C (gcc 5.4.0)</option>
+                                                        <option value="CPP">C++ (g++ 5.4.0)</option>
+                                                        <option value="CPP14">C++14 (g++ 5.4.0)</option>
+                                                        <option value="CLOJURE">Clojure (clojure 1.6.0)</option>
+                                                        <option value="CSHARP">C# (mcs 5.4.0.201)</option>
+                                                        <option value="D">D (dmd 2.074.1)</option>
+                                                        <option value="ERLANG">Erlang (erts 8.3)</option>
+                                                        <option value="FSHARP">F# (fsharp 4.1)</option>
+                                                        <option value="GO">Go (go 1.8.3)</option>
+                                                        <option value="GROOVY">Groovy (groovy 2.4.11)</option>
+                                                        <option value="HASKELL">Haskell (ghc 7.10.3)</option>
+                                                        <option value="JAVA">Java (openjdk 1.7.0_95)</option>
+                                                        <option value="JAVA8">Java 8 (oracle 1.8.0_131)</option>
+                                                        <option value="JAVASCRIPT">JavaScript (Rhino 1.7)</option>
+                                                        <option value="JAVASCRIPT_NODE">JavaScript (Node.js v6.11.0)</option>
+                                                        <option value="TYPESCRIPT">TypeScript (Version 1.7.5) (Node)</option>
+                                                        <option value="JULIA">Julia (julia 0.4.5)</option>
+                                                        <option value="KOTLIN">Kotlin (1.1.2-2)</option>
+                                                        <option value="LISP">Lisp (csc 4.12.0)</option>
+                                                        <option value="LISP_SBCL">Lisp (sbcl 1.3.1)</option>
+                                                        <option value="LUA">Lua (lua 5.3.4)</option>
+                                                        <option value="OBJECTIVEC">Objective-C (clang 5.0.0)</option>
+                                                        <option value="OCAML">OCaml (ocaml 4.02.3)</option>
+                                                        <option value="OCTAVE">Octave (gnu octave 4.0.0)</option>
+                                                        <option value="PASCAL">Pascal (fpc 3.0.0)</option>
+                                                        <option value="PERL">Perl (perl 5.22.1)</option>
+                                                        <option value="PHP">PHP (php 7.0.18)</option>
+                                                        <option value="PYTHON">Python (python 2.7.6)</option>
+                                                        <option value="PYTHON3">Python 3 (python 3.5.2)</option>
+                                                        <option value="R">R (RScript 3.4.0)</option>
+                                                        <option value="RACKET">Racket (racket 6.8)</option>
+                                                        <option value="RUBY">Ruby (ruby 2.3.1)</option>
+                                                        <option value="RUST">Rust (rustc 1.15.1)</option>
+                                                        <option value="SCALA">Scala (scalac 2.12.2)</option>
+                                                        <option value="SWIFT">Swift (swift 3.1.1)</option>
+                                                        <option value="SWIFT_4_1">Swift (swift 4.1)</option>
+                                                        <option value="VB">Visual Basic</option>
+                                                    </select>
+                                                    <a href="#" class="sc-option-btn-green float-left" data-toggle="tooltip" title="Save"><i class="far fa-save mr-5"></i>Save</a>
+                                                    <a href="#" class="sc-option-btn" data-toggle="tooltip" title="Upload Your Code"><i class="fas fa-upload"></i></a>
+                                                    <a href="#" class="sc-option-btn" data-toggle="tooltip" title="Full Screen"><i class="fas fa-expand"></i></a>
+                                                    <a href="#" class="sc-option-btn" data-toggle="tooltip" title="Options"><i class="fas fa-cog"></i></a>
+                                                </div>
+                                                <div class="col-sm-12 ce-main-code-area">
+                                                    <p style="color: #fff" class="mt-50">Your Code Editor here</p>
+                                                </div>
+                                                <div class="col-sm-12 ce-bottom-bar">
+                                                    <div class="col-sm-7 nopadding">
+                                                        <textarea class="form-control radius-0" placeholder="Provide Custome Input.." rows="3"></textarea>
+                                                    </div>
+                                                    <div class="col-sm-3 no-pad-res">
+                                                        <a href="#" class="ce-compile-btn">Compile and Test</a>
+                                                    </div>
+                                                    <div class="col-sm-2 nopadding">
+                                                        <a href="#" class="ce-submit-btn"><i class="far fa-check-circle mr-5"></i>Submit</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 idlp-rate">
+                                            <table>
+                                                <tr>
+                                                    <td class="text-right">
+                                                        <span>How was your Experience</span>
+                                                    </td>
+                                                    <td>
+                                                        <fieldset class="rating">
+                                                            <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                                            <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                                            <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                                            <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                                            <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                            <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda Bad - 2.5 stars"></label>
+                                                            <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2" title="Kinda Bad - 2 stars"></label>
+                                                            <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                                            <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1" title="Bad - 1 star"></label>
+                                                            <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Very Bad - 0.5 stars"></label>
+                                                        </fieldset>
+                                                    </td>
+                                            </table>
+                                        </div>
+                                        <div class="col-sm-12 idm-editorial-comment">
+                                            <div class="col-sm-12 idm-ec-top">
+                                                <div class="col-sm-6">
+                                                    <h3>Comments (1552)</h3>
+                                                </div>
+                                                <div class="col-sm-6 text-right">
+                                                    SORT BY
+                                                    <select>
+                                                        <option>Relevance</option>
+                                                        <option>Date</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 idm-ec-comment-add">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="images/learner/01.jpg" alt="user image" class="editorial-dp">
+                                                        </td>
+                                                        <td>
+                                                            <textarea rows="3" class="form-control" placeholder="Join Discussion.."></textarea>
+                                                            <div class="text-right">
+                                                                <a href="#" class="link">Cancel</a><a href="#" class="d-btn">Post</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-sm-12 nopadding">
+                                                <div class="col-sm-12 idm-ec-comment-add idmec">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/learner/01.jpg" alt="user image" class="editorial-dp" />
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="editorial-user-link">Vishal Panday</a><p>5 months ago.</p>
+                                                                <p>
+                                                                    public class PrimeNumber {<br>
+                                                                    public static void main(String[] args) {<br>
+                                                                    <br>
+                                                                    Scanner sc = new Scanner(System.in);<br>
+                                                                    int input = sc.nextInt();<br>
+                                                                    <br>
+                                                                    for (int k = 2; k <= input; k++) {<br>
+                                                                    int counter = 0;<br>
+                                                                    for (int i = 1; i <= k; i++) {<br>
+                                                                    if ((k % i) == 0) {<br>
+                                                                    counter++;<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    if (counter == 2) {<br>
+                                                                    System.out.print(k + " ");<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    }
+                                                                </p>
+                                                                <div class="editorial-comment-bottom-links">
+                                                                    <a href="#"><i class="fas fa-arrow-up mr-5"></i>12 Upvote</a>
+                                                                    <a href="javascript:void(0)" id="A2">Reply</a>
+                                                                    <a href="#">Message</a>
+                                                                    <a href="#">Permalink</a>
+                                                                </div>
+                                                                <table id="Table2" style="display: none">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <img src="images/learner/01.jpg" alt="user image" class="editorial-dp">
+                                                                        </td>
+                                                                        <td>
+                                                                            <textarea rows="3" class="form-control" placeholder="Reply to Vishal Pandey.."></textarea>
+                                                                            <div class="text-right">
+                                                                                <a href="#" class="link">Cancel</a><a href="#" class="d-btn">Post</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="col-sm-12 idm-ec-comment-add idmec">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/learner/01.jpg" alt="user image" class="editorial-dp" />
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="editorial-user-link">Vishal Panday</a><p>5 months ago.</p>
+                                                                <p>
+                                                                    public class PrimeNumber {<br>
+                                                                    public static void main(String[] args) {<br>
+                                                                    <br>
+                                                                    Scanner sc = new Scanner(System.in);<br>
+                                                                    int input = sc.nextInt();<br>
+                                                                    <br>
+                                                                    for (int k = 2; k <= input; k++) {<br>
+                                                                    int counter = 0;<br>
+                                                                    for (int i = 1; i <= k; i++) {<br>
+                                                                    if ((k % i) == 0) {<br>
+                                                                    counter++;<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    if (counter == 2) {<br>
+                                                                    System.out.print(k + " ");<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    }
+                                                                </p>
+                                                                <div class="editorial-comment-bottom-links">
+                                                                    <a href="#"><i class="fas fa-arrow-up mr-5"></i>12 Upvote</a>
+                                                                    <a href="javascript:void(0)" id="A3">Reply</a>
+                                                                    <a href="#">Message</a>
+                                                                    <a href="#">Permalink</a>
+                                                                </div>
+                                                                <table id="Table3" style="display: none">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <img src="images/learner/01.jpg" alt="user image" class="editorial-dp">
+                                                                        </td>
+                                                                        <td>
+                                                                            <textarea rows="3" class="form-control" placeholder="Reply to Vishal Pandey.."></textarea>
+                                                                            <div class="text-right">
+                                                                                <a href="#" class="link">Cancel</a><a href="#" class="d-btn">Post</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+
+                                                <div class="col-sm-12 text-center mt-30">
+                                                    <a href="#" class="edi-comment-more-btn">+1540 Comments</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="Submission">
+                                    <div class="col-sm-12 idl-tab-area cdm-submission table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Result</th>
+                                                    <th>Score</th>
+                                                    <th>Language</th>
+                                                    <th>Submitted On</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="color-red">X Complilation error</td>
+                                                    <td>0.0</td>
+                                                    <td>C++</td>
+                                                    <td>14 hrs ago</td>
+                                                    <td><a href="#">View Result</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="color-green">Successfully Submitted</td>
+                                                    <td>89</td>
+                                                    <td>C#</td>
+                                                    <td>10 days ago</td>
+                                                    <td><a href="#">View Result</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="Editorial">
+                                    <div class="col-sm-12 idl-tab-area" id="unlock-editorial">
+                                        <div class="col-sm-8 col-sm-offset-2 idm-editorial-lock mt-30">
+                                            <span><i class="glyphicon glyphicon-lock"></i></span>
+                                            <h3>Editorial is LOCKED</h3>
+                                            <p>The Editorial is locked. In order to qualify for points, you need to solve the problem without unlocking the editorial.</p>
+                                            <h4>Are you sure you want to unlock the tab?</h4>
+                                            <a class="idm-unlock-btn mt-30" href="#"><i class="fas fa-unlock-alt mr-5"></i>Unlock Editorial</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 idl-tab-area" id="show-editorial" style="display: none">
+                                        <div class="idl-editorial-name">
+                                            <h4>
+                                                <img src="images/learner/01.jpg" alt="user image">
+                                                Editorial By <a href="#">ViralModi</a></h4>
+                                        </div>
+                                        <div class="idl-editorial-desc-1">
+                                            <p>
+                                                Given the fixed small size of the problem, brute force is fine.<br>
+                                                <br>
+                                                Points to note:-
+                                            </p>
+                                            <ul>
+                                                <li>Negative values possible.</li>
+                                                <li>Maximum sum can be less than zero.</li>
+                                                <li>Range of element value is -9 to 9.</li>
+                                                <li>Numbers to be summed for each hourglass = 7.</li>
+                                                <li>Minimum possible value for sum = <b>7 * -9 = -63</b>.</li>
+                                            </ul>
+                                            <p>So we'll initialize our maxSum to -63. From there, we just calculate the sums of all hourglasses and return the maxSum. Here is an implementation of the function in Python:</p>
+                                        </div>
+                                        <pre class="prettyprint prettyprinted" style=""><code><span class="kwd">package</span><span class="pln"> main
+
+</span><span class="kwd">import</span><span class="pln"> </span><span class="pun">(</span><span class="pln">
+    </span><span class="str">"fmt"</span><span class="pln">
+    </span><span class="str">"math"</span><span class="pln">
+</span><span class="pun">)</span><span class="pln">
+
+func </span><span class="typ">PrimeSieve</span><span class="pln"> </span><span class="pun">(</span><span class="pln">n </span><span class="kwd">int</span><span class="pun">)</span><span class="pln"> </span><span class="pun">[]</span><span class="kwd">int</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    status </span><span class="pun">:=</span><span class="pln"> make</span><span class="pun">([]</span><span class="kwd">bool</span><span class="pun">,</span><span class="pln"> n</span><span class="pun">+</span><span class="lit">1</span><span class="pun">)</span><span class="pln">
+    </span><span class="kwd">for</span><span class="pln"> i </span><span class="pun">:=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;=</span><span class="pln"> n</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        status</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">true</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+
+    limit </span><span class="pun">:=</span><span class="pln"> </span><span class="lit">1</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="kwd">int</span><span class="pun">(</span><span class="pln">math</span><span class="pun">.</span><span class="typ">Sqrt</span><span class="pun">(</span><span class="pln">float64</span><span class="pun">(</span><span class="pln">n</span><span class="pun">)))</span><span class="pln">
+    </span><span class="kwd">for</span><span class="pln"> i </span><span class="pun">:=</span><span class="pln"> </span><span class="lit">2</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;</span><span class="pln"> limit</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="kwd">if</span><span class="pln"> status</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+            </span><span class="kwd">for</span><span class="pln"> j </span><span class="pun">:=</span><span class="pln"> i</span><span class="pun">*</span><span class="pln">i</span><span class="pun">;</span><span class="pln"> j </span><span class="pun">&lt;=</span><span class="pln"> n</span><span class="pun">;</span><span class="pln"> j </span><span class="pun">+=</span><span class="pln"> i </span><span class="pun">{</span><span class="pln">
+                status</span><span class="pun">[</span><span class="pln">j</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">false</span><span class="pln">
+            </span><span class="pun">}</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+
+    </span><span class="kwd">var</span><span class="pln"> primes </span><span class="pun">[]</span><span class="kwd">int</span><span class="pln">
+    </span><span class="kwd">for</span><span class="pln"> i </span><span class="pun">:=</span><span class="pln"> </span><span class="lit">2</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;=</span><span class="pln"> n</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="kwd">if</span><span class="pln"> status</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+            primes </span><span class="pun">=</span><span class="pln"> append</span><span class="pun">(</span><span class="pln">primes</span><span class="pun">,</span><span class="pln"> i</span><span class="pun">)</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+    </span><span class="kwd">return</span><span class="pln"> primes
+</span><span class="pun">}</span><span class="pln">
+
+func main</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">var</span><span class="pln"> n </span><span class="kwd">int</span><span class="pln">
+    fmt</span><span class="pun">.</span><span class="typ">Scanf</span><span class="pun">(</span><span class="str">"%d"</span><span class="pun">,</span><span class="pln"> </span><span class="pun">&amp;</span><span class="pln">n</span><span class="pun">)</span><span class="pln">
+
+    </span><span class="kwd">for</span><span class="pln"> _</span><span class="pun">,</span><span class="pln"> prime </span><span class="pun">:=</span><span class="pln"> range </span><span class="typ">PrimeSieve</span><span class="pun">(</span><span class="pln">n</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        fmt</span><span class="pun">.</span><span class="typ">Printf</span><span class="pun">(</span><span class="str">"%d "</span><span class="pun">,</span><span class="pln"> prime</span><span class="pun">)</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+    fmt</span><span class="pun">.</span><span class="typ">Printf</span><span class="pun">(</span><span class="str">"\n"</span><span class="pun">)</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+                                        <div class="col-sm-12 idm-editorial-bottom">
+                                            <div class="col-sm-12 idm-e-helpful">
+                                                <table>
+                                                    <tr>
+                                                        <td>IS THIS EDITORIAL HELPFUL?</td>
+                                                        <td>
+                                                            <a href="#" class="green">
+                                                                <span><i class="far fa-thumbs-up"></i></span>
+                                                                <p>Yes, it's helpful</p>
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#" class="red">
+                                                                <span><i class="far fa-thumbs-down"></i></span>
+                                                                <p>No, it's helpful</p>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 idm-editorial-comment">
+                                            <div class="col-sm-12 idm-ec-top">
+                                                <div class="col-sm-6">
+                                                    <h3>Comments (41)</h3>
+                                                </div>
+                                                <div class="col-sm-6 text-right">
+                                                    SORT BY
+                                                    <select>
+                                                        <option>Relevance</option>
+                                                        <option>Date</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 idm-ec-comment-add">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="images/learner/01.jpg" alt="user image" class="editorial-dp">
+                                                        </td>
+                                                        <td>
+                                                            <textarea rows="3" class="form-control" placeholder="Join Discussion.."></textarea>
+                                                            <div class="text-right">
+                                                                <a href="#" class="link">Cancel</a><a href="#" class="d-btn">Post</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-sm-12 nopadding">
+                                                <div class="col-sm-12 idm-ec-comment-add idmec">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/learner/01.jpg" alt="user image" class="editorial-dp" />
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="editorial-user-link">Vishal Panday</a><p>5 months ago.</p>
+                                                                <p>
+                                                                    public class PrimeNumber {<br>
+                                                                    public static void main(String[] args) {<br>
+                                                                    <br>
+                                                                    Scanner sc = new Scanner(System.in);<br>
+                                                                    int input = sc.nextInt();<br>
+                                                                    <br>
+                                                                    for (int k = 2; k <= input; k++) {<br>
+                                                                    int counter = 0;<br>
+                                                                    for (int i = 1; i <= k; i++) {<br>
+                                                                    if ((k % i) == 0) {<br>
+                                                                    counter++;<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    if (counter == 2) {<br>
+                                                                    System.out.print(k + " ");<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    }
+                                                                </p>
+                                                                <div class="editorial-comment-bottom-links">
+                                                                    <a href="#"><i class="fas fa-arrow-up mr-5"></i>12 Upvote</a>
+                                                                    <a href="javascript:void(0)" id="editorial-reply-view">Reply</a>
+                                                                    <a href="#">Message</a>
+                                                                    <a href="#">Permalink</a>
+                                                                </div>
+                                                                <table id="editorial-reply" style="display: none">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <img src="images/learner/01.jpg" alt="user image" class="editorial-dp">
+                                                                        </td>
+                                                                        <td>
+                                                                            <textarea rows="3" class="form-control" placeholder="Reply to Vishal Pandey.."></textarea>
+                                                                            <div class="text-right">
+                                                                                <a href="#" class="link">Cancel</a><a href="#" class="d-btn">Post</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="col-sm-12 idm-ec-comment-add idmec">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/learner/01.jpg" alt="user image" class="editorial-dp" />
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="editorial-user-link">Vishal Panday</a><p>5 months ago.</p>
+                                                                <p>
+                                                                    public class PrimeNumber {<br>
+                                                                    public static void main(String[] args) {<br>
+                                                                    <br>
+                                                                    Scanner sc = new Scanner(System.in);<br>
+                                                                    int input = sc.nextInt();<br>
+                                                                    <br>
+                                                                    for (int k = 2; k <= input; k++) {<br>
+                                                                    int counter = 0;<br>
+                                                                    for (int i = 1; i <= k; i++) {<br>
+                                                                    if ((k % i) == 0) {<br>
+                                                                    counter++;<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    if (counter == 2) {<br>
+                                                                    System.out.print(k + " ");<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    }<br>
+                                                                    }
+                                                                </p>
+                                                                <div class="editorial-comment-bottom-links">
+                                                                    <a href="#"><i class="fas fa-arrow-up mr-5"></i>12 Upvote</a>
+                                                                    <a href="javascript:void(0)" id="A1">Reply</a>
+                                                                    <a href="#">Message</a>
+                                                                    <a href="#">Permalink</a>
+                                                                </div>
+                                                                <table id="Table1" style="display: none">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <img src="images/learner/01.jpg" alt="user image" class="editorial-dp">
+                                                                        </td>
+                                                                        <td>
+                                                                            <textarea rows="3" class="form-control" placeholder="Reply to Vishal Pandey.."></textarea>
+                                                                            <div class="text-right">
+                                                                                <a href="#" class="link">Cancel</a><a href="#" class="d-btn">Post</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+
+                                                <div class="col-sm-12 text-center mt-30">
+                                                    <a href="#" class="edi-comment-more-btn">+93 Comments</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane" id="Analytics">
+                                    <div class="col-sm-12 idl-tab-area">
+                                        <div class="col-sm-12 idl-analytic">
+                                            <div class="col-sm-12 idl-an-graph">
+                                                <h3>Submission Graph</h3>
+                                                <canvas id="submission-line" width="700" height="250"></canvas>
+                                            </div>
+                                            <div class="col-sm-12 idl-an-graph">
+                                                <h3>Submission Summary</h3>
+                                                <canvas id="submission-hori-bar" width="700" height="250"></canvas>
+                                            </div>
+                                            <div class="col-sm-12 idl-an-graph">
+                                                <h3>Language Analytics</h3>
+                                                <canvas id="language-hori-bar" width="700" height="450"></canvas>
+                                            </div>
+                                            <div class="col-sm-12 idl-an-graph table-responsive">
+                                                <h3>Multilingual Users</h3>
+                                                <table class="table table-bordered table-striped table-hover idl-ana-user">
+                                                    <thead>
+                                                        <tr>
+                                                            <td></td>
+                                                            <td>Developer</td>
+                                                            <td># of Languages</td>
+                                                            <td>Languages Used</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <img src="images/learner/01.jpg" alt="user image">
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#">
+                                                                    <h4>Marina Gold</h4>
+                                                                    <br>
+                                                                    <p>@marinag</p>
+                                                                </a>
+                                                            </td>
+                                                            <td>10</td>
+                                                            <td>C++, C, Python, Python 3, Java, Java 8, Kotlin, PHP, Swift, Swift-4.1</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                                <div class="col-sm-12 text-center mt-30">
+                                                    <a href="#" class="edi-comment-more-btn">+521 More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="Leaderboard">
+                                    <div class="col-sm-12 idl-tab-area">
+                                        <div class="col-sm-12 idl-leaderboard  table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Programmer</th>
+                                                        <th>Rank</th>
+                                                        <th>Country</th>
+                                                        <th>Language</th>
+                                                        <th>Score</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Manika Sinha</a></td>
+                                                        <td>01</td>
+                                                        <td>
+                                                            <img src="images/country/246-india.png" alt="country" class="leader-country" data-toggle="tooltip" title="India"></td>
+                                                        <td>Python</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#">Stephiny</a></td>
+                                                        <td>02</td>
+                                                        <td>
+                                                            <img src="images/country/260-united-kingdom.png" alt="country" class="leader-country" data-toggle="tooltip" title="United Kingdom"></td>
+                                                        <td>C++</td>
+                                                        <td>10.0</td>
+                                                        <td><a href="#">View Solution</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="col-sm-12 text-center mt-30">
+                                                <a href="#" class="edi-comment-more-btn">+1291 More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-3 col-md-4 idl-right-side">
+                        <table>
+                            <tr>
+                                <td>Difficulty Level</td>
+                                <td>Easy</td>
+                            </tr>
+                            <tr>
+                                <td>Max Score</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Success Score</td>
+                                <td>83%</td>
+                            </tr>
+                            <tr>
+                                <td>Attempted By</td>
+                                <td><a href="#">50127</a></td>
+                            </tr>
+                            <tr>
+                                <td>Author</td>
+                                <td><a href="#">Zafreen Akhtar</a></td>
+                            </tr>
+                            <tr>
+                                <td>Ratings</td>
+                                <td>
+                                    <h4>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <br>
+                                        <span><b>4.3</b> | 2318 Reviews</span>
+                                    </h4>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="col-sm-12 cdm-top-sbu-box">
+                            <h4>Top Submissions</h4>
+                            <p>
+                                Language<select>
+                                    <option>Bash</option>
+                                    <option>C</option>
+                                    <option>C++</option>
+                                </select>
+                            </p>
+                            <div class="text-center mt-20">
+                                <img src="images/learner/01.jpg" class="cdm-best-sub" alt="user image" /><br>
+                                <a href="#" class="sdm-best-sub-link">Stephiny Brown</a>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <h6>0.40168</h6>
+                                            <h5><i class="far fa-clock mr-5"></i>Time</h5>
+                                        </td>
+                                        <td>
+                                            <h6>64 kb</h6>
+                                            <h5><i class="fas fa-layer-group mr-5"></i>Memory</h5>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 cdm-social-share border-0">
+                            <hr>
+                            <p>Share </p>
+                            <a href="#" class="bg-facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="bg-twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="bg-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="bg-copy" data-toggle="tooltip" data-placement="top" title="Copy URL"><i class="far fa-clone"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-top">
+        <div class="container">
+            <div class="col-sm-12">
+                <p>ARE YOU A BUSINESS?</p>
+                <h3>Get things done faster with<br>
+                    HackerRocks' Advanced Hiring Tool</h3>
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 mt-30 business-footer-email">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your business email" />
+                        <span class="input-group-btn">
+                            <button class="btn" type="button">Get Started for <span>Free</span></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-clients-footer">
+        <div class="container">
+            <div class="col-sm-12">
+                <div id="client-footer" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="images/clients/c1.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c2.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c3.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c4.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c5.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c6.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c8.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c9.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c10.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c11.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c12.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c13.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c15.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c16.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c17.png" alt="client name" />
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/c18.png" alt="client name" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-4 col-lg-2 col-xs-12 nopadding">
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>Resources</h3>
+                            <ul>
+                                <li><a href="common_pages/about-us.html">Our Story</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Case Studies</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>Support</h3>
+                            <ul>
+                                <li><a href="common_pages/contact-us.html">Contact us</a></li>
+                                <li><a href="common_pages/faq.html">Help & FAQs</a></li>
+                                <li><a href="common_pages/privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="common_pages/terms-and-conditions.html">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-2 col-xs-12 nopadding">
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>For Business</h3>
+                            <ul>
+                                <li><a href="#">Enterprise Solution</a></li>
+                                <li><a href="#">Career resource Center</a></li>
+                                <li><a href="#">Hiring Soltion</a></li>
+                                <li><a href="#">Employee Testing</a></li>
+                                <li><a href="#">Proctored Testing<sup>New</sup></a></li>
+                                <li><a href="#">Online Interview</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>Resources</h3>
+                            <ul>
+                                <li><a href="#">Inntegration Kit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-2 col-xs-12 nopadding">
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>For Learners</h3>
+                            <ul>
+                                <li><a href="#">Certification Courses</a></li>
+                                <li><a href="#">Skill Test</a></li>
+                                <li><a href="#">Interview Preparation</a></li>
+                                <li><a href="#">Challenges</a></li>
+                                <li><a href="#">Get Hired</a></li>
+                                <li><a href="#">Win Prizes</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>Know More</h3>
+                            <ul>
+                                <li><a href="#">Featured in News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-2 col-xs-12 nopadding">
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>Trending Courses</h3>
+                            <ul>
+                                <li><a href="#">Web Design Certification</a></li>
+                                <li><a href="#">SAP Enterprise Management Certification</a></li>
+                                <li><a href="#">Information Security Certification</a></li>
+                                <li><a href="#">Agile Game Development with Scrum Certification</a></li>
+                                <li><a href="#">Business Entiuette Certification</a></li>
+                                <li><a href="#">Self Confidence Certification</a></li>
+                                <li><a href="#">Free IBM Certification Test</a></li>
+                                <li><a href="#">Wordpress Certification</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-2 col-xs-12 nopadding">
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>Featured Skill Test</h3>
+                            <ul>
+                                <li><a href="#">Python Expert Level Test</a></li>
+                                <li><a href="#">ECS Test</a></li>
+                                <li><a href="#">Sigma Test</a></li>
+                                <li><a href="#">Hibernate Certification Test</a></li>
+                                <li><a href="#">Amazon Redshift Test</a></li>
+                                <li><a href="#">Azure Test</a></li>
+                                <li><a href="#">Administration Test</a></li>
+                                <li><a href="#">Advanced JAVA Test</a></li>
+                                <li><a href="#">AngularJS Test</a></li>
+                                <li><a href="#">ASP.Net MVC & Web API Test</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-2 col-xs-12 nopadding">
+                        <div class="col-sm-12 footer-link-box">
+                            <h3>Latest Challenges</h3>
+                            <ul>
+                                <li><a href="#">Microsoft Hiring Challenge</a></li>
+                                <li><a href="#">ECS Test</a></li>
+                                <li><a href="#">Sigma Test</a></li>
+                                <li><a href="#">Hibernate Certification Test</a></li>
+                                <li><a href="#">Amazon Redshift Test</a></li>
+                                <li><a href="#">Azure Test</a></li>
+                                <li><a href="#">Administration Test</a></li>
+                                <li><a href="#">Advanced JAVA Test</a></li>
+                                <li><a href="#">AngularJS Test</a></li>
+                                <li><a href="#">ASP.Net MVC & Web API Test</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 footer-blog-link">
+                <div class="row">
+                    <div class="col-sm-5 footer-link-box">
+                        <h3><i class="fas fa-pen-square mr-5"></i>Latest in HackerRocks Blog</h3>
+                        <ul>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>How to Walk the Tightrope Between Consistency and Growth</a></li>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>Let's Rething Employee Appreciation</a></li>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>Caffeinating Collaboration: The Lifecycle of a Philz Coffee Bean</a></li>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>How to Find the Best Developer for Your Agency</a></li>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>How a Lack of Visibility Is Visibly Hurting Your Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5 footer-link-box">
+                        <h3><i class="fas fa-chart-line mr-5"></i>Newly Uploaded Case Studies</h3>
+                        <ul>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>How to Walk the Tightrope Between Consistency and Growth</a></li>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>Let's Rething Employee Appreciation</a></li>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>Caffeinating Collaboration: The Lifecycle of a Philz Coffee Bean</a></li>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>How to Find the Best Developer for Your Agency</a></li>
+                            <li><a href="#"><i class="far fa-dot-circle mr-5"></i>How a Lack of Visibility Is Visibly Hurting Your Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 footer-icons">
+                        <img src="images/footer-icons.png" alt="HackerRocks - Payment Method" />
+                        <div class="col-sm-12 footer-social">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-youtube-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-sm-12 footer-copyright">
+                        <p>
+                            HackerRocks is NOT an accredited university or a placement agency, and does NOT award any qualification degree or guarantee any job placement. HackerRocks is a unique online skill-testing, education, practice, and coding-challenge platform, and is NOT affiliated with any association, university, or sanctioned by the University Grants Commission.<br>
+                            &copy; Copyright HackerRocks 2007 to 2019
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="bm-video" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" id="yt-player">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <iframe width="100" height="480" src="https://www.youtube.com/embed/RDpFFJdaSgs?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Read Tutorial Modal -->
+    <div class="modal fade" id="tutorial" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content radius-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Tutorial - Data Structure</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="col-sm-12 practice-right">
+                                <p>The very first step of getting started with online judge is to understand :</p>
+                                <ul>
+                                    <li>How to read input data?</li>
+                                    <li>How to output the answer?</li>
+                                </ul>
+                                <p>At HackerRocks, input data is read from standard input stream (STDIN) and results are printed to standard output stream (STDOUT). Most of the questions will deal with either integers or strings.</p>
+                                <p>An example C code to read an integer from STDIN and printing it out to STDOUT is shown below.</p>
+                                <pre class="prettyprint prettyprinted" style=""><code><span class="com">#include</span><span class="pln"> </span><span class="str">&lt;stdio.h&gt;</span><span class="pln">
+</span><span class="kwd">int</span><span class="pln"> main</span><span class="pun">()</span><span class="pln">
+</span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">int</span><span class="pln"> n</span><span class="pun">;</span><span class="pln">
+    scanf</span><span class="pun">(</span><span class="str">"%d"</span><span class="pun">,&amp;</span><span class="pln">n</span><span class="pun">);</span><span class="pln"> </span><span class="com">//read input integer from STDIN</span><span class="pln">
+    printf</span><span class="pun">(</span><span class="str">"%d"</span><span class="pun">,</span><span class="pln">n</span><span class="pun">);</span><span class="pln"> </span><span class="com">//print output integer to STDOUT</span><span class="pln">
+    </span><span class="kwd">return</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+                                <p>Sample code snippet to read integer for all other languages are given in the code editor below.</p>
+
+                                <p>An example C code to read a string from STDIN and printing it out to STDOUT.</p>
+                                <pre class="prettyprint prettyprinted" style=""><code><span class="com">#include</span><span class="pln"> </span><span class="str">&lt;stdio.h&gt;</span><span class="pln">
+</span><span class="kwd">int</span><span class="pln"> main</span><span class="pun">()</span><span class="pln">
+</span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> a</span><span class="pun">[</span><span class="lit">100</span><span class="pun">];</span><span class="pln"> </span><span class="com">//assuming that string size will not exceed 100</span><span class="pln">
+    scanf</span><span class="pun">(</span><span class="str">"%s"</span><span class="pun">,</span><span class="pln">a</span><span class="pun">);</span><span class="pln"> </span><span class="com">//read a string in array a</span><span class="pln">
+    printf</span><span class="pun">(</span><span class="str">"%s"</span><span class="pun">,</span><span class="pln">a</span><span class="pun">);</span><span class="pln"> </span><span class="com">//print out array a </span><span class="pln">
+    </span><span class="kwd">return</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+                                <p>Careful not to print any thing else in the output, such as printf("The answer is %d",n); because the online judge directly compares your output to expected output like normal string comparison. Say if expected output is 5, and the code prints The answer is 5 then when online judge compares 5 with The answer is 5, it will say that the code produced wrong result. Every HackerRocks problem has a predefined input and output format.</p>
+
+                                <p>Every problem will also have <b>Constraints</b> section which helps in determining what size of array to be created or what datatypes to use, say int or long long.</p>
+                                <p><b>Runtime Errors</b></p>
+                                <p>While solving the problems on an online Judge, many runtime errors can be faced, which are not clear by the message which comes with them. Lets try to understand these errors.</p>
+                                <p>
+                                    To get clear about the definition of run time error:<br>
+                                    A runtime error means that the program was compiled successfully, but it exited with a runtime error or crashed. You will receive an additional error message, which is most commonly one of the following:
+                                </p>
+                                <p><b>1) SIGSEGV</b></p>
+                                <p>This is the most common error, i.e., a "segmentation fault". This may be caused e.g. by an out-of-scope array index causing a buffer overflow, an incorrectly initialized pointer, etc. This signal is generated when a program tries to read or write outside the memory that is allocated for it, or to write memory that can only be read. For example, you’re accessing a[-1] in a language which does not support negative indices for an array.</p>
+                                <p><b>Some ways to avoid runtime errors: </b></p>
+                                <ul style="list-style: decimal">
+                                    <li>Make sure you aren't using variables that haven't been initialized. These may be set to 0 on your computer, but aren't guaranteed to be on the judge.</li>
+                                    <li>Check every single occurrence of accessing an array element and see if it could possibly be out of bounds.</li>
+                                    <li>Make sure you aren't declaring too much memory. 64 MB is guaranteed, but having an array of size [100000] * [100000] will never work.</li>
+                                    <li>Make sure you aren't declaring too much stack memory. Any large arrays should be declared globally, outside of any functions, as putting an array of 100000 ints inside a function probably won't work.</li>
+                                </ul>
+                                <p>The below exercise would be a great start. Welcome to the world of Competitive Programming.</p>
+                                <div class="text-right">
+                                    <hr>
+                                    <p class="disabled">Contributed by: Ravi Ojha</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default radius-0" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Plugins' JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script>
+        $(document).ready(function () {
+            $("#unlock-editorial").click(function () {
+                $("#show-editorial").fadeIn();
+                $("#unlock-editorial").fadeOut();
+            });
+
+            $("#editorial-reply-view").click(function () {
+                $("#editorial-reply").slideToggle(1000);
+            });
+
+        });
+
+        var ctx = document.getElementById('submission-line').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable', 'lable'],
+                datasets: [{
+                    data: [12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                },
+                legend: {
+                    display: false
+                }
+            }
+        });
+
+        var ctx = document.getElementById('submission-hori-bar').getContext('2d');
+        var myBarChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['Solutions submitted', 'Accepted', 'Compile Error', 'Memory Limit Exceeded', 'Runtime Error', 'Time Limit Exceeded', 'Wrong Answer'],
+                datasets: [{
+                    data: [1200, 190, 33, 5645, 2235, 346, 1232],
+                    backgroundColor: [
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)'
+                    ],
+                    borderColor: [
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                },
+                legend: {
+                    display: false
+                },
+                "hover": {
+                    "animationDuration": 0
+                },
+                "animation": {
+                    "duration": 1,
+                    "onComplete": function () {
+                        var chartInstance = this.chart,
+                          ctx = chartInstance.ctx;
+
+                        ctx.font = Chart.helpers.fontString(Chart.defaults.global.defaultFontSize, Chart.defaults.global.defaultFontStyle, Chart.defaults.global.defaultFontFamily);
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'bottom';
+
+                        this.data.datasets.forEach(function (dataset, i) {
+                            var meta = chartInstance.controller.getDatasetMeta(i);
+                            meta.data.forEach(function (bar, index) {
+                                var data = dataset.data[index];
+                                ctx.fillText(data, bar._model.x + 25, bar._model.y + 8);
+                            });
+                        });
+                    }
+                },
+            }
+        });
+
+
+        var ctx = document.getElementById('language-hori-bar').getContext('2d');
+        var myBarChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['Bash', 'C', 'C#', 'C++', 'Clojure', 'D', 'GO', 'Javascript', 'Kitlin', 'Lisp', 'PHP', 'Ruby', 'Scala', 'Swift', 'Visual Basic'],
+                datasets: [{
+                    data: [1200, 190, 33, 5645, 2235, 346, 1232, 1281, 118, 653, 76, 120, 562, 657, 860],
+                    backgroundColor: [
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)'
+                    ],
+                    borderColor: [
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)',
+                        'rgb(76, 175, 80)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                },
+                legend: {
+                    display: false
+                },
+                "hover": {
+                    "animationDuration": 0
+                },
+                "animation": {
+                    "duration": 1,
+                    "onComplete": function () {
+                        var chartInstance = this.chart,
+                          ctx = chartInstance.ctx;
+
+                        ctx.font = Chart.helpers.fontString(Chart.defaults.global.defaultFontSize, Chart.defaults.global.defaultFontStyle, Chart.defaults.global.defaultFontFamily);
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'bottom';
+
+                        this.data.datasets.forEach(function (dataset, i) {
+                            var meta = chartInstance.controller.getDatasetMeta(i);
+                            meta.data.forEach(function (bar, index) {
+                                var data = dataset.data[index];
+                                ctx.fillText(data, bar._model.x + 25, bar._model.y + 8);
+                            });
+                        });
+                    }
+                },
+            }
+        });
+    </script>
+</body>
+</html>
